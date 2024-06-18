@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* globally giving the theme color as black andwhite  is given in the root */
+:root{
+    --black: #1B1722;
+    --white : #F0F0F0;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    background-color: black;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 62.5%;   
+    overflow-x: hidden;
+    scroll-padding-top: 112px;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 13px;
+    height: 10px;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color:#000;
+    border-radius: 20px;
+}
+
+
+
+
+/* importing the font: quicksand frpm fomtawesome */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* globally giving the theme color as black andwhite  is given in the root */
+:root{
+    --black: #1B1722;
+    --white : #F0F0F0;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    background-color: black;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 62.5%;   
+    overflow-x: hidden;
+    scroll-padding-top: 112px;
+    scroll-behavior: smooth;
+}
+.header{
+    top: 0;right: 0;left: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 22.4px 7%;
+    z-index: 999;
+}
+html::-webkit-scrollbar{
+    width: 13px;
+    height: 10px;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color:#000;
+    border-radius: 20px;
+}
+.header{
+    height:100px;
+}
+.header .logocontainer{
+    display: flex;
+    align-items:center;
+}
+.header .logocontainer .logo img{
+    height:100px;
+    width: 100px;
+
+}
+.header .logocontainer .logoname {
+    color:black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.header .navbar a{
+    font-size: 20px;
+    margin-right: 48px;
+    color:black;
+    font-weight: bold;
+}
+.header .navbar a:hover{
+    border-bottom: 1.6px solid black;
+    padding-bottom: 6.4px;
+}
+.header .icon i{
+    font-size: 20px;
+    margin-right:32px;
+    color: black;
+    cursor: pointer;
+}
+.header .search{
+    display: none;
+    top: 100%;
+    margin: 24px 7%;
+    background-color: transparent;
+    width: 50%;
+    right: 0;
+    height: 80px;
+    position: absolute;
+
+}
+
+.header .search input{
+    width: 90%;
+    height: 50%;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+    margin-right: 0%;
+    border-radius:16px;
+    padding: 8px 16px;
+    box-shadow:10px 10px #0009;
+    text-transform: none;
+}
+.header .search.active{
+    display: inline-block;
+}
+.header .items 
+{
+    font-size:20px;
+}
+.header .items a{
+    color:black;
+}
+#menu-bar{
+    display:none;
+ }
+ 
+.header .signUp button{
+    font-size:18px;
+    text-align: center;
+    background-color:green;
+    color: white;
+    border: 3px solid black;
+    margin-left: 0;
+    border-radius: 100px;
+    padding:10px 5px 5px 15px;
+    margin-top:8px;
+    cursor: pointer;
+}
+body{
+    width:1345px;
+    height:500px;
+}
+.p1{
+    font-weight: bolder;
+    font-size:60px;
+    color:green;
+    font-display: oblique;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;  
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.privacy{
+    padding-top: 40px;
+    line-height: 30px;
+}
+.h1{
+    font-weight: bolder;
+    font-weight: bolder;
+    height:30px;
+    width:1345px;
+    padding-top: 10px;
+    text-indent:30px;
+    font-size:30px;
+    color: green;
+    text-align: justify;
+
+}
+ul{
+    text-align:left;
+    padding-inline-start:40px;
+    padding-inline-end: 40px;
+    font-size:20px;   
+    text-indent:70px;
+}
+
+.h{
+    text-align:justify;
+    justify-content: center;
+     padding-inline-start:30px;
+    padding-inline-end: 30px;
+    font-size:20px;
+    padding-top: 30px;
+    text-indent: 70px;
+    line-height:40px;
+} 
+.footer {
+    background: url('/images/footerback.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 24px;
+    padding: 32px 16px;
+}
+.footer .box-container .mainBox .content{
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+}
+.footer .box-container .mainBox .content h1{
+    font-size: 25px;
+    color: black;
+}
+.footer .box-container .mainBox p{
+    font-size: 27.2px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.footer .box-container .box h3{
+    font-size: 25px;
+    color: black;
+    padding: 16px 0;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 20px;
+    color: black;
+    padding: 16px 0;
+}
+.footer .box-container .box a i{
+    padding-right: 8px;
+    color: green;
+}
+.footer .box-container .box a:hover i{
+    padding-right: 32px;
+}
+.footer .share{
+    padding: 16px 0;
+    text-align: center;
+}
+.footer .share a{
+    height: 64px;
+    width: 64px;
+    line-height: 64px;
+    font-size: 20px;
+    color:white;
+    background: black;
+    margin: 4.8px;
+    border-radius: 50%;
+
+}
+.footer .share a:hover{
+    background: green;
+    color: white;
+}
+.footer .credit{
+    font-size: 20px;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    color: green;
+    text-align: center;
+    
+}
+
+/* for small laptops */
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 1.3rem 3rem;
+    }
+    .home .homecontainer{
+        margin-left: 0;
+        width: 80%;
+    }
+}
+/* for tabs,ipad */
+@media (max-width:768px) {
+   
+    #menu-bar{
+        display: inline-block;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 25rem;
+        background-color:white;
+        height: 80vh;
+    }
+    .header .navbar.active{
+        right: 0;
+    }
+    .header .navbar a{
+        display: block;
+        font-size: 2rem;
+        color: black;
+        margin: 1.5rem;
+    }
+
+    .home .homecontainer{
+        margin-left: 0;
+        width: 90%;
+    }
+}
+/* for mobile */
+
+@media (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+}

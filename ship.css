@@ -1,0 +1,123 @@
+/* globally giving the theme color as black andwhite  is given in the root */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* globally giving the theme color as black andwhite  is given in the root */
+:root{
+    --black: #1B1722;
+    --white : #F0F0F0;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+.parallelx{
+    background-image: url("/images/shipback.jpg");
+    height:max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 100px;
+}
+.tittle{
+    background:rgba(0, 0,0 ,0.5);
+    text-align: center;
+    color:white;
+    padding:80px;
+    font-variant:small-caps;
+    font-size:80px;
+    font-family: fantasy;
+    letter-spacing:20px;
+
+}
+.ship{
+    text-align: left;
+    padding-left: 45px;
+    font-size: medium;
+    padding-right: 10%;
+    font-size: larger;
+    color: rgb(42, 165, 73);
+}
+.ship content{
+
+    color: darkolivegreen ;
+    font-size: medium;
+    background-color:var(--white
+    );
+
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;}
+  
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+    height: 50px;
+    width: 60%;
+    padding: 20px;
+  }
+  .ship{
+    color: green;
+  }
+  .content{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 10%;
+    background-color:aliceblue;
+  }
+.ship  content ul{
+    list-style-image: url('');
+  }
+.content a:link {
+        color: rgb(16, 218, 66);
+      }
+.content a:hover {
+        color: rgb(115, 105, 255);
+      }
+      .footer {
+        background: url(/images/footerback.jpg) no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+     
+     
+    /* for tabs,ipad */
+@media (max-width:768px) {
+   
+  #menu-bar{
+      display: inline-block;
+  }
+  .header .navbar{
+      position: absolute;
+      top: 100%;
+      right: -100%;
+      width: 25rem;
+      background-color:white;
+      height: 80vh;
+  }
+  .header .navbar.active{
+      right: 0;
+  }
+  .header .navbar a{
+      display: block;
+      font-size: 2rem;
+      color: black;
+      margin: 1.5rem;
+  }
+
+  .home .homecontainer{
+      margin-left: 0;
+      width: 90%;
+  }
+}
+/* for mobile */
+
+@media (max-width:600px){
+  html{
+      font-size: 50%;
+  }
+}
+
+
